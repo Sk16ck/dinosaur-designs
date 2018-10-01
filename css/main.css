@@ -1,5 +1,5 @@
 html {
-  background-color: #f21ed;
+  background-color: #f2f1ed;
   font-family: Georgia, serif;
   line-height: 1.5;
 }
@@ -8,11 +8,12 @@ img {
   width: 100%;
 }
 
+/* Using a FontFamily instead of manually setting the font color and size */
+
 h1, h2 {
-  /* Using a FontFamily instead of manually setting the font color and size */
-  color: 5d8432;
+  color: #5d8432;
   text-transform: uppercase;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
 }
 
 figcaption {
@@ -24,7 +25,7 @@ figcaption {
 nav {
   font-size: 1.125rem;
   font-weight: bold;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
 }
 
 nav ol {
@@ -37,11 +38,11 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
   color: #b42885;
   text-decoration: none;
 }
 
-.intro{
+.intro {
   font-size: 1rem;
 }
