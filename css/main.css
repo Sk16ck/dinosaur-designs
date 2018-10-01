@@ -9,8 +9,10 @@ img {
 }
 
 h1, h2 {
+  /* Using a FontFamily instead of manually setting the font color and size */
   color: 5d8432;
   text-transform: uppercase;
+  font-family: 'Patua One', cursive;
 }
 
 figcaption {
@@ -22,6 +24,7 @@ figcaption {
 nav {
   font-size: 1.125rem;
   font-weight: bold;
+  font-family: 'Patua One', cursive;
 }
 
 nav ol {
@@ -29,6 +32,7 @@ nav ol {
 }
 
 nav a {
+
   color: #793284;
   text-decoration: none;
 }
